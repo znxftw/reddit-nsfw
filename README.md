@@ -20,5 +20,5 @@ NSFW | 300 | 50
 SFW | 300 | 50
 Total | 600 | 100
 
-###### N.B. : If you plan to test run this script, then after extracting the images using RipMe , make sure to filter out images from videos and remove the empty .gitkeep file I have placed as a placeholder in each of the folders just to upload the basic structure to GitHub.
+###### N.B. : If you plan to test run this program, then after extracting the images using RipMe , make sure to filter out images from videos and remove the empty .gitkeep file I have placed as a placeholder in each of the folders just to upload the basic structure to GitHub.
 
