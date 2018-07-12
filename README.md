@@ -53,9 +53,9 @@ The results of the training can be found in the file named *training_transcript*
 
 Values stated below are averages which were taken over the last 5 epochs of training.
 
-Set | Accuracy | Error
---- | -------- | -----
-Training Data |  90.1 % | 9.9 %
-Test Data | 80.2 % | 19.8 %
+Set | Accuracy
+--- | -------- 
+Training Data |  90.1 % 
+Test Data | 80.2 % 
 
 
