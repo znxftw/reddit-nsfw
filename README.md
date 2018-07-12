@@ -58,4 +58,12 @@ Set | Accuracy
 Training Data |  90.1 % 
 Test Data | 80.2 % 
 
+The above results show significant variance in the accuracy of the Test and Training set. 
 
+This can be reduced by either increasing our Training Set size or improving our Convolutional Layer ( Adding more / Improving input resolution )
+
+Bayes error for the dataset can be assumed to be 0~5 % owing to some SFW images that might seem NSFW ( Bare skin / Beach images / Lingerie etc.) and some NSFW images that may seem SFW (Low visibility / Partial nudity etc.) even with human classification.
+
+## 4. Conclusion
+
+Using convolutional Neural Networks, we were able to achieve 80% accuracy in classifying images containing NSFW content from those which didn't. However, with optimized parameters we could possibly stretch our model to achieve a Bayes error of less than 5%.
