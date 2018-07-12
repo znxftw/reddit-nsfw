@@ -22,3 +22,28 @@ Total | 600 | 100
 
 ###### N.B. : If you plan to test run this program, then after extracting the images using RipMe , make sure to filter out images from videos and remove the empty .gitkeep file I have placed as a placeholder in each of the folders just to upload the basic structure to GitHub.
 
+## 2. Running the Convolutional Neural Network
+
+If you would personally like to run the program, I suggest installing [Anaconda](https://www.anaconda.com/download/) and installing Theano, Tensorflow and Keras using the following commands into the Anaconda Prompt
+
+```
+conda create -n py35 python=3.5 anaconda
+
+activate py35
+
+conda install theano
+conda install tensorflow
+conda install keras
+```
+
+After that, open Spyder in the environment we set up as py35 using the following commands in the Anaconda Prompt
+```
+activate py35
+
+spyder --show console
+```
+
+Open the *cnn.py* file inside Spyder and set the working directory as the parent directory of 'dataset' folder.
+Adjust the parameters according to your wish and run *cnn.py* and wait for the training to complete.
+
+###### N.B. If you are not using Anaconda for your python environment I suggest creating a virtualenv before installing Theano, Keras and Tensorflow to prevent corrupting your entire python installation if an error occurs.
