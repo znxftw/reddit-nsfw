@@ -24,7 +24,7 @@ Total | 600 | 100
 
 ## 2. Running the Convolutional Neural Network
 
-If you would personally like to run the program, I suggest installing [Anaconda](https://www.anaconda.com/download/) and installing Theano, Tensorflow and Keras using the following commands into the Anaconda Prompt
+If you would personally like to run the program, I suggest installing [Anaconda](https://www.anaconda.com/download/) and installing Theano, Tensorflow and Keras using the following commands in the Anaconda Prompt
 
 ```
 conda create -n py35 python=3.5 anaconda
@@ -47,3 +47,15 @@ Open the *cnn.py* file inside Spyder and set the working directory as the parent
 Adjust the parameters according to your wish and run *cnn.py* and wait for the training to complete.
 
 ###### N.B. If you are not using Anaconda for your python environment I suggest creating a virtualenv before installing Theano, Keras and Tensorflow to prevent corrupting your entire python installation if an error occurs.
+
+## 3. Analysing the results
+The results of the training can be found in the file named *training_transcript* in the home directory of this repository. Error analysis and related data were taken from the above mentioned file.
+
+Values stated below are averages which were taken over the last 5 epochs of training.
+
+Set | Accuracy | Error
+--- | -------- | -----
+Training Data |  90.1 % | 9.9 %
+Test Data | 80.2 % | 19.8 %
+
+
